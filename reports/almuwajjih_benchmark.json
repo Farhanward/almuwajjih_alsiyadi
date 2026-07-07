@@ -1,0 +1,23 @@
+{
+  "processed": 12000,
+  "errors": 0,
+  "sensitive_cloud_leaks": 0,
+  "targets": {
+    "local": 866,
+    "local_fast": 11086,
+    "cloud_coder": 48
+  },
+  "latency_ms": {
+    "mean": 0.01693325813297027,
+    "p99": 0.05110001075081527
+  },
+  "memory_mb": {
+    "current": 0.396288,
+    "peak": 0.400084
+  },
+  "elapsed_seconds": 0.22996840000269003,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0 and sensitive_cloud_leaks == 0"
+  }
+}
